@@ -2,9 +2,14 @@ import React from "react";
 
 const Navbar = () => {
     return (
-        <div>
-            <h1>Nav</h1>
-        </div>
+       <>
+         <Nav>
+             <NavbarContainer>
+                 <NavLogo> dolla </NavLogo>
+                 
+             </NavbarContainer>
+         </Nav>
+       </>
     );
 };
 
