@@ -6,7 +6,6 @@ const Navbar = () => {
          <Nav>
              <NavbarContainer>
                  <NavLogo> dolla </NavLogo>
-                 
              </NavbarContainer>
          </Nav>
        </>
