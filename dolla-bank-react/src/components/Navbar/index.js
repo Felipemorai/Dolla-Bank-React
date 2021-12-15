@@ -7,7 +7,9 @@ NavLogo,
 MobileIcon,
 NavMenu,
 NavItem,
-NavLinks 
+NavLinks,
+NavBtn,
+NavBtnLink
 } from "./NavbarElements";
 
 const Navbar = () => {
@@ -30,9 +32,12 @@ const Navbar = () => {
                          <NavLinks to='services'>Services</NavLinks>
                      </NavItem>
                      <NavItem>
-                         <NavLinks to='signup'>Sign up</NavLinks>
+                         <NavLinks to='signup'>Sign Up</NavLinks>
                      </NavItem>
                  </NavMenu>
+                 <NavBtn>
+                     <NavBtnLink to="/signin">Sign In</NavBtnLink>
+                 </NavBtn>
              </NavbarContainer>
          </Nav>
        </>
