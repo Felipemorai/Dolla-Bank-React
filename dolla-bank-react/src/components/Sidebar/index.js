@@ -11,6 +11,7 @@ const Sidebar = () => {
             <Icon>
                 <CloseIcon />
             </Icon>
+            <SidebarWrapper></SidebarWrapper>
         </SidebarContainer>
     )
 }
