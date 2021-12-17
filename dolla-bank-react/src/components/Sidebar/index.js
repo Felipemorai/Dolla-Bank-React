@@ -2,7 +2,12 @@ import React from 'react';
 import { 
 SidebarContainer,
 Icon,
-CloseIcon
+CloseIcon,
+SidebarWrapper,
+SidebarMenu,
+SidebarLink,
+SideBtnWrap,
+SidebarRoute
 } from './SidebarElements';
 
 const Sidebar = () => {
