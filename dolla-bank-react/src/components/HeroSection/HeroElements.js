@@ -22,4 +22,12 @@ export const HeroBg = styled.div`
   width: 100%;
   height: 100%;
   overflow: hidden;
+`;
+
+export const VideoBg = styled.video`
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  background: #232a34;
 `
