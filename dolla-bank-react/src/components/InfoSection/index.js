@@ -26,7 +26,10 @@ const InfoSection = ({
   description, 
   buttonLabel, 
   img, 
-  alt
+  alt,
+  primary,
+  dark,
+  dark2
 }) => {
     return (
         <>
@@ -45,8 +48,9 @@ const InfoSection = ({
                                 spy={true}
                                 exact="true"
                                 offset={-80}
-                                primary="true"
-                                dark="true"
+                                primary={primary ? "true" : "false"}
+                                dark={dark ? "true" : "false"}
+                                dark2={dark2 ? "true" : "false"}
                                 >{buttonLabel}</Button>
                             </BtnWrap>
                         </TextWrapper>
